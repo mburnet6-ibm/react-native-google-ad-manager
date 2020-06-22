@@ -12,7 +12,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://gitlab.com/cmsw/react-native-google-ad-manager"
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.authors      = { "Callosum Software" => "oss@callosum-sw.de" }
-  s.platforms    = { :ios => "9.0", :tvos => "10.0" }
+  s.platforms    = { :ios => "9.0" }
   s.source       = { :git => "https://gitlab.com/cmsw/react-native-google-ad-manager.git", :tag => "#{s.version}" }
   s.swift_version = "4.0"
 
