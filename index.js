@@ -28,4 +28,5 @@ import { GAMAutomaticBanner } from './src/GAMAutomaticBanner'
 export { GAMAutomaticBanner }
 export { RNGAMBanner }
 
-export default { GAMAutomaticBanner, Prebid, RNGAMBanner }
+// export default { GAMAutomaticBanner, Prebid, RNGAMBanner }
+export default { GAMAutomaticBanner, RNGAMBanner }
