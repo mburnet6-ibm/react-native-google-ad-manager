@@ -10,7 +10,7 @@ import {
 
 const noop = () => {}
 
-const { simulatorTestId } = NativeModules.RNGoogleAdManager
+const { simulatorTestId } = NativeModules.RNGoogleAdManager ?? ""
 
 const AD_STATE = {
   DESTROYED: 'destroyed',
